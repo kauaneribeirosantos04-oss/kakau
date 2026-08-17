@@ -1,14 +1,96 @@
-<TITLE>World Wide Web</TITLE>
-<H1>World Wide Web</H1>
-The WorldWideWeb (W3) is a wide-area hypermedia information retrieval 
-initiative aiming to give universal access to a large universe of documents.
-<P>
-Everything there is online about W3 is linked directly or indirectly 
-to this document, including an executive summary of the project, 
-<A HREF="W3/ExecutingSummary.html">executive summary</A>, 
-<A HREF="W3/Tracking.html">Mailing lists</A>, 
-<A HREF="W3/Policy.html">Policy</A>, etc.
-<P>
-<A HREF="W3/WhatsAvailable.html">What's out there?</A> 
-Pointers to the world's online information, subjects, W3 servers, etc.
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog Tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Blog Tech</h1>
+        <p>Dicas de programação, tutoriais e tecnologia.</p>
+    </header>
+    
+    <main class="container">
+        <article class="post-card">
+            <h2>Primeiro Post: O que é HTML e CSS?</h2>
+            <span class="date">17 de Agosto, 2026</span>
+            <p>Aprenda os conceitos básicos para estruturar e estilizar páginas na web de forma simples e rápida.</p>
+            <a href="#" class="read-more">Ler mais</a>
+        </article>
+        
+        <article class="post-card">
+            <h2>Segundo Post: Dicas de JavaScript</h2>
+            <span class="date">15 de Agosto, 2026</span>
+            <p>Descubra truques úteis para deixar suas páginas dinâmicas e interativas com pouco código.</p>
+            <a href="#" class="read-more">Ler mais</a>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Meu Blog Tech. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f2937;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.post-card {
+    background: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post-card h2 {
+    margin-top: 0;
+    color: #1f2937;
+}
+
+.date {
+    font-size: 0.85rem;
+    color: #6b7280;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+t       text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #1f2937;
+    color: #fff;
+    margin-top: 2rem;
+}
 
